@@ -1,0 +1,108 @@
+.header__menu {
+    height: 500px;
+    width: 1440px;
+    background: url("../../images/hdr_bckgrnd1.png");
+}
+
+.header__logo {
+
+    height: 26px;
+    left: 7%;
+    right: 90.21%;
+    top: 3px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+.header__nav {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+
+    /* identical to box height, or 167% */
+
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.header__h1 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 51px;
+    /* identical to box height, or 102% */
+
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+
+}
+
+.header__text {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height, or 118% */
+
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.63);
+}
+
+.header__button {
+    background: #DD783F;
+    border-radius: 3px;
+    border-style: none;
+}
+
+.menu__item {
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height, or 118% */
+
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.63);
+    text-decoration: none;
+
+}
+
+.menu__list {
+    display: inline;
+}
+
+.header__lownav {
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+
+.menu__item_lownav {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+
+    color: #768088;
+    text-decoration: none;
+}

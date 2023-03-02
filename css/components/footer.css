@@ -1,0 +1,46 @@
+.footer{
+    position: relative;
+    background: url("../../images/ftrbckgrnd.png");
+
+    height: 89px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    width: 1440px;
+    
+    border-radius: 0px;
+}
+
+.footer__title{
+    
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 26px;
+/* identical to box height, or 100% */
+
+
+color: #FFFFFF;
+}
+
+.footer__list{
+    display: inline;
+}
+
+.footer__item{
+    
+font-family: 'Oxygen';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 26px;
+/* identical to box height, or 236% */
+
+text-align: right;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+}

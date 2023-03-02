@@ -1,0 +1,200 @@
+.mainpart__ftrdposts {
+    position: relative;
+    z-index: -2;
+    background: #F7F7F7;
+    border-radius: 0px;
+}
+
+.mainpart__ftrdpoststitle {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height, or 135% */
+
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #2E2E2E;
+}
+
+.mainpart__card {
+
+    border-radius: 3px;
+    width: 460px;
+    height: 280px;
+
+}
+
+.mainpart__cardimg {
+    position: absolute;
+    z-index: -1;
+}
+
+.mainpart__cardtitle {
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px;
+    /* identical to box height, or 111% */
+
+
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.mainpart__cardsubtitle {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    /* identical to box height, or 179% */
+
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.mainpart__cardavatar {
+
+    border-radius: 60px;
+}
+
+.mainpart__cardauthor {
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 35px;
+    /* identical to box height, or 292% */
+
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.mainpart__carddate {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 35px;
+    /* identical to box height, or 292% */
+
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.mainpart__cardbutton {
+    background: #DD783F;
+    border-radius: 2px;
+    border-style: none;
+}
+
+.mainpart__mostrecent {
+    position: relative;
+    z-index: -2;
+    background: #F7F7F7;
+    border-radius: 0px;
+}
+
+.mainpart__mostrecenttitle {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height, or 135% */
+
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #2E2E2E;
+}
+
+.mainpart__mcard {
+    z-index: -1;
+    margin-top: 20px;
+    position: relative;
+    height: 291px;
+    width: 296px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.09);
+    border-radius: 3px;
+}
+
+.mainpart__mcardimg {
+    position: relative;
+    height: 150px;
+    left: 0%;
+    right: -0.01%;
+    top: 0px;
+
+    border-radius: 0px;
+}
+
+.mainpart__mcardtitle {
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height, or 131% */
+
+
+    color: #101315;
+}
+
+.mainpart__mcardsubtitle {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height, or 146% */
+
+
+    color: #7A7A7A;
+}
+
+.mainpart__mcardavatar {
+    border-radius: 60px;
+}
+
+.mainpart__mcardauthor {
+    position: relative;
+
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+
+    /* identical to box height, or 318% */
+
+
+    color: #999999;
+}
+
+.mainpart__mcarddate {
+    position: relative;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+   
+    /* identical to box height, or 292% */
+
+
+    color: #999999;
+
+
+}

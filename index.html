@@ -1,102 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>ГЛАВНАЯ</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="css/style.css">
     <script src='main.js'></script>
 </head>
+
 <body>
-    <header>
-      <img src="images/IMAGE6.png" alt="картинка">
-      <p>Escape</p>
-      <nav> 
-          <a href="index.html">HOME</a>
-          <a href="#">CATEGORIES</a>
-          <a href="#">ABOUT</a>
-          <a href="#">CONTACT</a> 
-      </nav>
-      <p>We travel the world in search of stories. Come along for the ride.</p>
-      <form action="#">
-          <button>View Latest Posts</button>
-      </form>
-      <div>
-          <a href="#">Nature</a>
-          <a href="#">Photography</a>
-          <a href="#">Relaxation</a>
-          <a href="#">Vacation</a>
-          <a href="#">Travel</a>
-          <a href="#">Adventure</a>
-      </div>
-      <h1>Let's do it together</h1>
-    </header>
-   
-    <h2>Featured Posts</h2>
-   
-    <div>
-        <a href="the-road-ahead.html"><img src="images/IMAGE4.png" alt="картинка">The Road Ahead</a>
-        <p>The road ahead might be paved - it might not be.</p>
-        <p><img src="images/IMAGE-1.jpg" alt="картинка">Mat Vogels September 25, 2015</p>     
-    </div>
-
-    <div>
-            <a><img src="images/IMAGE5.png" alt="картинка">From Top Down</a>
+    <header class="header">
+        <div class="menu header__menu header__menu__active">
+            <p class="header__logo">Escape</p>
+            <nav class="header__nav">
+                <li class="list menu__list"><a class="item menu__item" href="index.html">HOME</a></li>
+                <li class="list menu__list"><a class="item menu__item" href="#">CATEGORIES</a></li>
+                <li class="list menu__list"><a class="item menu__item" href="#">ABOUT</a></li>
+                <li class="list menu__list"><a class="item menu__item" href="#">CONTACT</a></li>
+            </nav>
+            <h1 class="header__h1">Let's do it together</h1>
+            <p class="header__text">We travel the world in search of stories. Come along for the ride.</p>
             <form action="#">
-                <button> ADVENTURE </button>
+                <button class="header__button">View Latest Posts</button>
             </form>
-            <p>Once a year, go someplace you've never been before.</p>
-        <p><img src="images/IMAGE.jpg" alt="картинка">William Wong September 25, 2015</p>    
-    </div>
-   
-    <h2>Most Recent</h2>
+            <div class="header__lownav">
+                <li class="menu__list"><a class="menu__item_lownav" href="#">Nature</a></li>
+                <li class="menu__list"><a class="menu__item_lownav" href="#">Photography</a></li>
+                <li class="menu__list"><a class="menu__item_lownav" href="#">Relaxation</a></li>
+                <li class="menu__list"><a class="menu__item_lownav" href="#">Vacation</a></li>
+                <li class="menu__list"><a class="menu__item_lownav" href="#">Travel</a></li>
+                <li class="menu__list"><a class="menu__item_lownav" href="#">Adventure</a></li>
+            </div>
+        </div>
+    </header>
 
-    <div>
-        <p><img src="images/IMAGE-2.jpg" alt="картинка">Still Standing Tall</p>
-        <p>Life begins at the end of your comfort zone.</p>
-        <p><img src="images/IMAGE.jpg" alt="картинка">William Wong September 25, 2015</p>
-    </div>
+    <section class="mainpart">
+        <div class="ftrdposts mainpart__ftrdposts">
+            <h2 class="ftrdposts mainpart__ftrdposttitle">Featured Posts</h2>
 
-    <div>
-        <p><img src="images/IMAGE11.png" alt="картинка">Sunny Side Up</p>
-        <p>No place is ever as bad as they tell you it’s going to be.</p>
-        <p><img src="images/IMAGE-1.jpg" alt="картинка">Mat Vogels September 25, 2015</p> 
-    </div>
+            <div class="card mainpart__card">
+                <img class="img mainpart__cardimg" src="images/thrdhdbckrnd.png" alt="картинка">
+                <a class="cardtitle mainpart__cardtitle" href="the-road-ahead.html">The Road Ahead</a>
+                <p class="cardsubtitle mainpart__cardsubtitle">The road ahead might be paved - it might not be.</p>
 
-    <div>
-        <p><img src="images/IMAGE7.png" alt="картинка">Water Falls</p>
-        <p>We travel not to escape life, but for life not to escape us.</p>
-        <p><img src="images/IMAGE-1.jpg" alt="картинка">Mat Vogels September 25, 2015</p> 
-    </div>
+                <img class="cardavatar mainpart__cardavatar" src="images/mtvgls.jpg" alt="картинка">
+                <p class="cardauthor mainpart__cardauthor"> Mat Vogels </p>
+                <p class="carddate mainpart__carddate">September 25, 2015</p>
 
-    <div>
-      <p><img src="images/IMAGE8.png" alt="картинка">Through the Mist</p>
-      <p>Travel makes you see what a tiny place you occupy in the world.</p>
-      <p><img src="images/IMAGE.jpg" alt="картинка">William Wong September 25, 2015</p>
-    </div>
+            </div>
 
-    <div>
-      <p><img src="images/IMAGE9.png" alt="картинка">Awaken Early</p>
-      <p>Not all those who wander are lost.</p>
-      <p><img src="images/IMAGE-1.jpg" alt="картинка">Mat Vogels September 25, 2015</p> 
-    </div>
+            <div class="card mainpart__card">
+                <img class="img mainpart__cardimg" src="images/frmtpdwnbckrnd.png" alt="картинка">
+                <a href="#" class="cardtitle mainpart__cardtitle">From Top Down</a>
+                <form action="#">
+                    <button class="cardbutton mainpart__cardbutton"> ADVENTURE </button>
+                </form>
+                <p class="cardsubtitle mainpart__cardsubtitle">Once a year, go someplace you've never been before.</p>
+                <img class="cardavatar mainpart__cardavatar" src="images/wllmwng.jpg" alt="картинка">
+                <p class="cardauthor mainpart__cardauthor">William Wong</p>
+                <p class="carddate mainpart__carddate">September 25, 2015</p>
+            </div>
+        </div>
+        <div class="mostrecent mainpart__mostrecent">
+            <h2 class="mostrecent mainpart__mostrecenttitle">Most Recent</h2>
 
-    <div>
-      <p><img src="images/IMAGE10.png" alt="картинка">Try it Always</p>
-      <p>The world is a book, and those who do not travel read only one page.</p>
-      <p><img src="images/IMAGE-1.jpg" alt="картинка">Mat Vogels September 25, 2015</p> 
-    </div>
+            <div class="mcard mainpart__mcard">
+                <img class="mcardimg mainpart__mcardimg" src="images/stllstndngtll.jpg" alt="картинка">
+                <p class="mcardtitle mainpart__mcardtitle">Still Standing Tall</p>
+                <p class="mcardsubtitle mainpart__mcardsubtitle">Life begins at the end of your comfort zone.</p>
 
-    <footer>
-        <img src="images/IMAGE12.png" alt="картинка"> 
-        <h2>Escape.</h2>
+                <img class="mcardavatar mainpart__mcardavatar" src="images/wllmwng.jpg" alt="картинка">
+                <p class="mcardauthor mainpart__mcardauthor">William Wong</p>
+                <p class="mcarddate mainpart__mcarddate">September 25, 2015</p>
+            </div>
+
+            <div class="mcard mainpart__mcard">
+                <img class="mcardimg mainpart__mcardimg" src="images/snnsdp.png" alt="картинка">
+                <p class="mcardtitle mainpart__mcardtitle">Sunny Side Up</p>
+                <p class="mcardsubtitle mainpart__mcardsubtitle">No place is ever as bad as they tell you it’s going to
+                    be.</p>
+
+                <img class="mcardavatar mainpart__mcardavatar" src="images/mtvgls.jpg" alt="картинка">
+                <p class="mcardauthor mainpart__mcardauthor">Mat Vogels</p>
+                <p class="mcarddate mainpart__mcarddate">September 25, 2015</p>
+            </div>
+
+            <div class="mcard mainpart__mcard">
+                <img class="mcardimg mainpart__mcardimg" src="images/wtrflls.png" alt="картинка">
+                <p class="mcardtitle mainpart__mcardtitle">Water Falls</p>
+                <p class="mcardsubtitle mainpart__mcardsubtitle">We travel not to escape life, but for life not to
+                    escape us.</p>
+
+                <img class="mcardavatar mainpart__mcardavatar" src="images/mtvgls.jpg" alt="картинка">
+                <p class="mcardauthor mainpart__mcardauthor">Mat Vogels</p>
+                <p class="mcarddate mainpart__mcarddate">September 25, 2015</p>
+            </div>
+
+            <div class="mcard mainpart__mcard">
+                <img class="mcardimg mainpart__mcardimg" src="images/thrghthmst.png" alt="картинка">
+                <p class="mcardtitle mainpart__mcardtitle">Through the Mist</p>
+                <p class="mcardsubtitle mainpart__mcardsubtitle">Travel makes you see what a tiny place you occupy in
+                    the world.</p>
+
+                <img class="mcardavatar mainpart__mcardavatar" src="images/wllmwng.jpg" alt="картинка">
+                <p class="mcardauthor mainpart__mcardauthor">William Wong</p>
+                <p class="mcarddate mainpart__mcarddate">September 25, 2015</p>
+            </div>
+
+            <div class="mcard mainpart__mcard">
+                <img class="mcardimg mainpart__mcardimg" src="images/wknrl.png" alt="картинка">
+                <p class="mcardtitle mainpart__mcardtitle">Awaken Early</p>
+                <p class="mcardsubtitle mainpart__mcardsubtitle">Not all those who wander are lost.</p>
+
+                <img class="mcardavatar mainpart__mcardavatar" src="images/mtvgls.jpg" alt="картинка">
+                <p class="mcardauthor mainpart__mcardauthor">Mat Vogels</p>
+                <p class="mcarddate mainpart__mcarddate">September 25, 2015</p>
+            </div>
+
+            <div class="mcard mainpart__mcard">
+                <img class="mcardimg mainpart__mcardimg" src="images/trtlws.png" alt="картинка">
+                <p class="mcardtitle mainpart__mcardtitle">Try it Always</p>
+                <p class="mcardsubtitle mainpart__mcardsubtitle">The world is a book, and those who do not travel read
+                    only one page.</p>
+
+                <img class="mcardavatar mainpart__mcardavatar" src="images/mtvgls.jpg" alt="картинка">
+                <p class="mcardauthor mainpart__mcardauthor">Mat Vogels</p>
+                <p class="mcarddate mainpart__mcarddate">September 25, 2015</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <h2 class="title footer__title">Escape.</h2>
         <nav>
-            <a href="index.html">HOME</a>
-            <a href="#">CATEGORIES</a>
-            <a href="#">ABOUT</a>
-            <a href="#">CONTACT</a> 
+            <li class="list footer__list"><a class="item footer__item" href="index.html">HOME</a></li>
+            <li class="list footer__list"><a class="item footer__item" href="#">CATEGORIES</a></li>
+            <li class="list footer__list"><a class="item footer__item" href="#">ABOUT</a></li>
+            <li class="list footer__list"><a class="item footer__item" href="#">CONTACT</a></li>
         </nav>
     </footer>
 </body>
+
 </html>
