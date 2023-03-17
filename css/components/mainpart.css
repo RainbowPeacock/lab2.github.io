@@ -1,11 +1,11 @@
-.mainpart__ftrdposts {
+.mainpart__featuredposts {
     position: relative;
     z-index: 1;
     background: #F7F7F7;
     border-radius: 0px;
 }
 
-.mainpart__ftrdpoststitle {
+.mainpart__featuredpoststitle {
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -28,15 +28,15 @@
 
 }
 
-.mainpart__cardimg {
+.card__image {
     position: absolute;
     z-index: -1;
 }
 
-.mainpart__cardtitle {
+.card__title {
     position: relative;
     z-index: 1;
-    font-family: 'Lora';
+    font-family: 'Lora', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 27px;
@@ -48,7 +48,7 @@
     text-decoration: none;
 }
 
-.mainpart__cardsubtitle {
+.card__subtitle {
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -60,12 +60,12 @@
     color: rgba(255, 255, 255, 0.7);
 }
 
-.mainpart__cardavatar {
+.card__avatar {
 
     border-radius: 60px;
 }
 
-.mainpart__cardauthor {
+.card__author {
 
     font-family: 'Oxygen';
     font-style: normal;
@@ -78,7 +78,7 @@
     color: rgba(255, 255, 255, 0.7);
 }
 
-.mainpart__carddate {
+.card__date {
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -90,7 +90,7 @@
     color: rgba(255, 255, 255, 0.7);
 }
 
-.mainpart__cardbutton {
+.card__button {
     background: #DD783F;
     border-radius: 2px;
     border-style: none;
@@ -103,7 +103,7 @@
     border-radius: 0px;
 }
 
-.mainpart__mostrecenttitle {
+.mostrecent__title {
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -132,7 +132,7 @@
     border-radius: 3px;
 }
 
-.mainpart__mcardimg {
+.mcard__image {
     position: relative;
     height: 150px;
     left: 0%;
@@ -142,9 +142,9 @@
     border-radius: 0px;
 }
 
-.mainpart__mcardtitle {
+.mcard__title {
 
-    font-family: 'Lora';
+    font-family: 'Lora', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -155,7 +155,7 @@
     color: #101315;
 }
 
-.mainpart__mcardsubtitle {
+.mcard__subtitle {
     font-family: 'Oxygen';
     font-style: normal;
     font-weight: 400;
@@ -167,11 +167,11 @@
     color: #7A7A7A;
 }
 
-.mainpart__mcardavatar {
+.mcard__avatar {
     border-radius: 60px;
 }
 
-.mainpart__mcardauthor {
+.mcard__author {
     position: relative;
 
 
@@ -186,7 +186,7 @@
     color: #999999;
 }
 
-.mainpart__mcarddate {
+.mcard__date {
     position: relative;
     font-family: 'Oxygen';
     font-style: normal;
